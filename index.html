@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1> 🌤️ Weather App </h1>
+        <button id="theme-toggle" aria-label="Toggle Theme"> 🌓</button>
+    </header>
+    <main>
+        <section class="search-section">
+            <input
+            type="text"
+            id="city-input"
+            placeholder="Enter city name..."
+            autocomplete="off"
+            aria-label="City input"
+            />
+            <ul id="autocomplete-list" class="autocomplete-items"></ul>
+            <button id="search-button"> 🔍 Search</button>
+        </section>
+
+        <sectioon id="weather-display" class="weather-card hidden">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <imd id="weather-icon" alt="Weather-icon" />
+        </sectioon>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Weather App. </p>
+    </footer>
+    <script type="module" src="app.js"></script>
+    
+</body>
+</html>
