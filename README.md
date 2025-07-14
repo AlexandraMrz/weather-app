@@ -31,7 +31,7 @@ This application was developed during the **Gen Tech - JavaScript Track**, an in
 
 ---
 ## 🧑‍💻 Getting started
-### 📋Prerewuisites
+### 📋Prerequisites
 A web browser and an OpenWeatherMap API key.
 Get your API key for free: [OpenWeatherMap] ( https://openweathermap.org/api )
 
